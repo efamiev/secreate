@@ -1,0 +1,20 @@
+{
+  "name": "@secreate/backend",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec node -r ts-node/register --watch src src/server.ts",
+    "test": "jest --watch",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.0",
+    "express": "^4.17.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

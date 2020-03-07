@@ -1,0 +1,14 @@
+{
+  "name": "secreate",
+  "private": true,
+  "scripts": {
+    "start": "lerna run start",
+    "frontend:dev": "yarn workspace @secreate/frontend dev"
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
